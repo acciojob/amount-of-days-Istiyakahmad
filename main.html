@@ -9,6 +9,19 @@
 <body>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
+		function daysOfAYear(year) {
+  if (year % 400 === 0) {
+    return 366;
+  }
+  if (year % 100 === 0) {
+    return 365;
+  }
+  if (year % 4 === 0) {
+    return 366;
+  }
+  return 365;
+}
+
 </script>
 
 </body>
